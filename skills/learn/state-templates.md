@@ -32,6 +32,13 @@ Capability goal: [optional answer]
 Checkpoint frequency: Normal
 Question style: Open-ended
 Implementation style: AI writes code
+Language: [language the learner writes in, or Not specified]
+
+## Self-assessment
+Learner-declared, in their own words. Not demonstrated understanding.
+Known problems: [recurring habits or failure patterns they named, or Not specified]
+Known gaps: [concepts or skills they say they lack, or Not specified]
+Learning targets: [what they want to learn, in priority order, or Not specified]
 
 ## Strong Concepts
 No demonstrated understanding recorded yet.
