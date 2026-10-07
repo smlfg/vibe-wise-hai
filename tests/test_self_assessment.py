@@ -39,6 +39,17 @@ class SelfAssessmentTests(unittest.TestCase):
         self.assertIn("## Hands-on reps", text)
         self.assertIn("`Capability check`", text)
 
+    def test_reps_teach_instead_of_dictating(self):
+        text = (LEARN / "behavior.md").read_text()
+        self.assertIn("it is not dictation", text)
+        self.assertIn("misconception", text)
+        self.assertIn("Never write to that file.", text)
+
+    def test_seed_names_the_learners_notebook(self):
+        seed = (LEARN / "learner-seed.md").read_text()
+        self.assertIn("## Gedankenpalast", seed)
+        self.assertIn("python-palast.md", seed)
+
     def test_reset_leaves_self_assessment_to_onboarding(self):
         text = (ROOT / "skills/reset/reset.py").read_text()
         self.assertIn("self-assessment", text)
