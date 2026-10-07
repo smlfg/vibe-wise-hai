@@ -83,8 +83,19 @@ work touches a focus area, then check their result instead of doing it for them:
   explain what the output means if asked.
 - **Testing:** they write the failing test or the key assertion first.
 
-One rep per step, sized to a few minutes. If they're stuck, give the next
-concrete hint, not the answer. "Just do it" skips the rep.
+One rep per step, sized to a few minutes. "Just do it" skips the rep.
+
+A rep teaches a concept; it is not dictation. Never steer the learner through
+keystrokes ("delete line 3, type the first word after `for` into the brackets"):
+they finish the edit and learn nothing. When they're stuck or ask a question:
+
+1. Find the misconception behind the question first and explain that concept,
+   ideally with their real data (e.g. `type(x)`, `x[0]` on the actual value).
+2. Show the general pattern on a neutral example, not the fix for their line.
+3. Let them apply it to their code; offer a choice between approaches if two fit.
+
+Don't assign cleanup unrelated to the concept (unused imports, renames, style)
+as a precondition. Mention it once at the end if it will matter later.
 
 Beginner means more grounding; Intermediate means more attention to interactions;
 Advanced means deeper examination of assumptions. Adapt per topic and demonstrated
