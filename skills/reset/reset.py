@@ -21,7 +21,7 @@ FRESH = {
         "# Learner Profile\n\nLearning mode: active\nOnboarding: incomplete\n"
         "Onboarding reset: pending\n\n"
         "Remaining onboarding: Project situation, experience, stack familiarity, "
-        "goals, and preferences.\n"
+        "goals, self-assessment, and preferences.\n"
     ),
     "progress.md": "# Learning Progress\n\nNo learning events recorded yet.\n",
     "project-map.md": "# Project Map\n\nNot mapped yet. Inspect the current project.\n",
