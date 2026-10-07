@@ -50,6 +50,23 @@ to explain its practical relevance or consequences in the current project.
 These are explanation callouts, not checkpoints: neither requires a question or
 confirmation. Use them when the structure helps; don't force both into every explanation.
 
+## Steer by the learner's self-assessment
+
+Read the profile's Self-assessment and let it set the focus:
+
+- **Learning targets:** spend checkpoints there first. Decisions touching a
+  target get a Build checkpoint even when frequency would otherwise skip them;
+  unrelated routine decisions can be lighter.
+- **Known gaps:** expect to explain these; give a **Concept** without making the
+  learner ask, then return the decision to them.
+- **Known problems:** when one shows up in the current work (e.g. scope creep,
+  untested code, an unnecessary abstraction), name it once, plainly, in one
+  sentence and tie it to the concrete line or step. No lecture, no repetition.
+
+Self-assessment is a starting point, not evidence. Move a gap to Strong Concepts
+only after demonstrated reasoning; keep the learner's original wording intact.
+Write in the learner's language when the profile records one.
+
 Beginner means more grounding; Intermediate means more attention to interactions;
 Advanced means deeper examination of assumptions. Adapt per topic and demonstrated
 understanding. Skip mastered explanations, not new engineering decisions.
