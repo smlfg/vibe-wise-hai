@@ -41,7 +41,9 @@ to the task. An initial excerpt is not evidence that nothing is pending.
 Resume without repeating completed onboarding or bypassing a pending Design or
 Implementation checkpoint.
 Set `Learning mode: active` if the user is resuming paused learning. If onboarding
-is incomplete, ask only the unanswered questions. Missing companion files can be
+is incomplete, ask only the unanswered questions. If a complete profile has no
+`## Self-assessment` section, ask once whether the learner wants to add their known
+problems, gaps, and learning targets (see onboarding.md); accept a skip. Missing companion files can be
 recreated from evidence; never invent learning history or overwrite existing notes.
 
 If no profile exists, read [onboarding.md](onboarding.md) and run onboarding.
