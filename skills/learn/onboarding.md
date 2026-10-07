@@ -45,6 +45,14 @@ Ask only what's unknown, one question at a time:
   how this project works end to end as we build it.” Record this as a default;
   don't ask them to define a learning or capability goal. They can change it later.
   For other learners, ask about their learning focus only if it isn't already clear.
+- Self-assessment: the learner usually knows their own weak spots better than a
+  questionnaire would. Ask in chat, open-ended, one at a time, accepting "skip":
+  1. Known problems — "What tends to go wrong when you build?" (habits, failure
+     patterns, e.g. over-engineering, losing track of scope, not testing.)
+  2. Known gaps — "Which concepts or skills do you know you're missing?"
+  3. Learning targets — "What do you want to get better at, most important first?"
+  Record their words under Self-assessment without rephrasing them into your own
+  diagnosis. If they already gave this in their first message, reuse it.
 - Preferences, a native picker:
   - Use defaults — Reason through each meaningful decision first; AI writes code.
   - Customize — Adjust frequency, question style, or who writes the code.
