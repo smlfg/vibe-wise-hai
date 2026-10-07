@@ -53,6 +53,9 @@ Ask only what's unknown, one question at a time:
   3. Learning targets — "What do you want to get better at, most important first?"
   Record their words under Self-assessment without rephrasing them into your own
   diagnosis. If they already gave this in their first message, reuse it.
+  If [learner-seed.md](learner-seed.md) exists, show its goal and focus in two
+  lines and ask once whether to use it. On yes, copy its language, implementation
+  style, goal, and Self-assessment into the profile instead of asking these three.
 - Preferences, a native picker:
   - Use defaults — Reason through each meaningful decision first; AI writes code.
   - Customize — Adjust frequency, question style, or who writes the code.
