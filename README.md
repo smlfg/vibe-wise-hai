@@ -8,6 +8,26 @@ A Claude Code plugin that puts learning first and keeps you in control while AI 
 
 For anyone who wants to learn as they build—whether you're an aspiring engineer, a junior developer, or an experienced engineer exploring an unfamiliar stack. Practice planning how the pieces fit together, anticipating failures, and checking the result while keeping ownership of the decisions.
 
+## This fork: vibe-wise-hai
+
+A personalised fork of [nykooi1/vibe-wise](https://github.com/nykooi1/vibe-wise)
+for learners who already know where they struggle. Onboarding asks for your
+**known problems**, **known gaps**, and **learning targets** in your own words.
+Claude then spends checkpoints on your targets first, explains your gaps without
+being asked, and names a known problem once when it shows up in the work.
+Your self-assessment steers focus; it never counts as demonstrated understanding.
+
+Install the fork (instead of the upstream plugin, not alongside it):
+
+```text
+/plugin marketplace add smlfg/vibe-wise-hai
+/plugin install vibe-wise@vibe-wise-hai
+```
+
+Then `/vibe-wise:learn` as below. Already have a profile? Just tell Claude your
+problems, gaps, and targets; they're saved under **Self-assessment** in
+`.vibe-wise/profile.md`.
+
 ## Get started
 
 You need an up-to-date [Claude Code](https://code.claude.com/docs/en/setup) and
