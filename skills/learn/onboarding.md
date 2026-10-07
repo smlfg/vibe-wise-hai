@@ -55,7 +55,7 @@ Ask only what's unknown, one question at a time:
   diagnosis. If they already gave this in their first message, reuse it.
   If [learner-seed.md](learner-seed.md) exists, show its goal and focus in two
   lines and ask once whether to use it. On yes, copy its language, implementation
-  style, goal, Self-assessment, and Yardstick into the profile instead of asking
+  style, goal, Self-assessment, Yardstick, and notebook into the profile instead of asking
   these three.
 - Preferences, a native picker:
   - Use defaults — Reason through each meaningful decision first; AI writes code.

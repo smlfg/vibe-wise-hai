@@ -94,6 +94,10 @@ they finish the edit and learn nothing. When they're stuck or ask a question:
 2. Show the general pattern on a neutral example, not the fix for their line.
 3. Let them apply it to their code; offer a choice between approaches if two fit.
 
+If the learner keeps their own notebook (e.g. a memory-palace file named in the
+seed or profile), close a concept by naming which section it belongs to and two or
+three questions to answer there in their own words. Never write to that file.
+
 Don't assign cleanup unrelated to the concept (unused imports, renames, style)
 as a precondition. Mention it once at the end if it will matter later.
 

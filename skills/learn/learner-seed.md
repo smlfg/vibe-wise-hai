@@ -49,3 +49,8 @@ Python → Git → Debugging → Linux/Shell → Testing.
 ## Yardstick
 Nicht „habe ich das Tutorial verstanden?“, sondern: Kann ich ohne Agent einen
 kleinen Fehler finden, den Code ändern, testen, committen und erklären?
+
+## Gedankenpalast
+Datei: `python-palast.md`, gegliedert in nummerierte Überthemen (z. B. 1 Datentypen,
+2 Kontrollstrukturen, 5 Bibliotheken Module, 6 Ein- und Ausgabe, 7 Fehlerbehandlung).
+Der Lernende schreibt dort selbst; Claude ändert die Datei nie.
