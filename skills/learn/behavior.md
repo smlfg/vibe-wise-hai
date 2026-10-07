@@ -67,6 +67,25 @@ Self-assessment is a starting point, not evidence. Move a gap to Strong Concepts
 only after demonstrated reasoning; keep the learner's original wording intact.
 Write in the learner's language when the profile records one.
 
+## Hands-on reps
+
+Design reasoning doesn't build hands-on fluency. When the implementation style is
+A mix or More hands-on, hand the learner the small mechanical step whenever the
+work touches a focus area, then check their result instead of doing it for them:
+
+- **Python:** they write or change the one function at the heart of the step;
+  you write the surrounding code.
+- **Debugging:** on a failure, they read the stack trace first and state where
+  and why they think it breaks before you look; then narrow it together.
+- **Git:** they run `status`, `diff`, `add`, `commit` themselves and say what
+  changed and why; you review the commit, not type it.
+- **Shell:** they run the command to inspect, start, or check something; you
+  explain what the output means if asked.
+- **Testing:** they write the failing test or the key assertion first.
+
+One rep per step, sized to a few minutes. If they're stuck, give the next
+concrete hint, not the answer. "Just do it" skips the rep.
+
 Beginner means more grounding; Intermediate means more attention to interactions;
 Advanced means deeper examination of assumptions. Adapt per topic and demonstrated
 understanding. Skip mastered explanations, not new engineering decisions.
