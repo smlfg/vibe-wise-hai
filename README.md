@@ -17,6 +17,17 @@ Claude then spends checkpoints on your targets first, explains your gaps without
 being asked, and names a known problem once when it shows up in the work.
 Your self-assessment steers focus; it never counts as demonstrated understanding.
 
+Two additions for building hands-on fluency, not just design judgment:
+
+- **Hands-on reps:** in your focus areas (Python, Debugging, Git, Shell, Testing)
+  you do the small mechanical step yourself and Claude checks it.
+- **Capability check:** at milestones, you find, fix, test, commit, and explain a
+  small real change without the agent. What you manage alone is recorded.
+
+`skills/learn/learner-seed.md` holds this fork owner's goal, ten learning
+targets, and yardstick; onboarding offers to prefill from it. Edit or delete it
+to make the fork yours.
+
 Install the fork (instead of the upstream plugin, not alongside it):
 
 ```text
