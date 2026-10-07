@@ -128,6 +128,13 @@ of the work determine the length and format. Distinguish writing tests from runn
 them; say when checks weren't run. Offer deeper detail without another approval
 gate. A **System check** connects the pieces at milestones.
 
+When the profile records a yardstick, offer a **Capability check** at milestones
+(at most once per session, skippable): pick a small, real defect or change in
+code the learner has worked on, and let them find it, change the code, run the
+tests, commit, and explain it, without you doing any step. Only observe; give a
+hint only on request. Record what they did unaided and where they needed help in
+progress.md. That is demonstrated evidence; the attempt alone is not.
+
 ## Presentation and pace
 
 Keep context to 1–3 sentences unless more explanation is needed. Diagrams should
@@ -148,7 +155,7 @@ confirmations, not reasoning questions (text fallback if unavailable).
 Reports need no question.
 Headings use `✦ <Type>: <description>` with exact labels:
 `Build checkpoint`, `Design checkpoint`, `Implementation checkpoint`, `System check`,
-`Concept`, `Why this matters`, `Implementation report`.
+`Capability check`, `Concept`, `Why this matters`, `Implementation report`.
 
 Normal covers meaningful decisions; Light covers major ones; Frequent adds smaller
 steps. Never trigger by time or tool counts. Respect explicit requests for help,
