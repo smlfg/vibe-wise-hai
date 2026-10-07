@@ -1,8 +1,8 @@
 {
-  "name": "vibe-wise",
-  "owner": { "name": "Noah Kim" },
+  "name": "vibe-wise-hai",
+  "owner": { "name": "Samuel Fleig" },
   "metadata": {
-    "description": "VibeWise: learn how to build while AI writes the code."
+    "description": "VibeWise, personalised: learn from your own known gaps while AI writes the code."
   },
   "plugins": [
     {
