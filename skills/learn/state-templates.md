@@ -39,6 +39,7 @@ Learner-declared, in their own words. Not demonstrated understanding.
 Known problems: [recurring habits or failure patterns they named, or Not specified]
 Known gaps: [concepts or skills they say they lack, or Not specified]
 Learning targets: [what they want to learn, in priority order, or Not specified]
+Yardstick: [how they will know they can do it themselves, or Not specified]
 
 ## Strong Concepts
 No demonstrated understanding recorded yet.
